@@ -126,3 +126,8 @@ Matrix _P_ and inverse of _P_ (_P_<sup>-1</sup>) created from the eigenvectors f
 
 And the diagonal matrix _D_ = ![Example](https://handikao29.github.io/image/mat8.png)
 
+To prove the _D_, we’ll use the formula :
+
+![Example](https://handikao29.github.io/image/mat12.png)
+
+References :
