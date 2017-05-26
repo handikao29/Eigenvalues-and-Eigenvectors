@@ -11,7 +11,6 @@ Let there’s an _n_ × _m_ matrix can be considered as a function that uses mat
 <p align="center"><i>A</i><b>x</b> - <i>λI</i><b>x</b> = 0</p>
 <p align="center">(<i>A</i> – <i>λI</i>)<b>x</b> = 0</p>
 
-
 There is a close connection between these numbers λ and the likelihood that an iterative method will converge.
 
 If _A_ is a square matrix, the **characteristic polynomial** of _A_ is defined by
@@ -23,7 +22,19 @@ or characteristic values, of the matrix <i>A</i>. If λ is an eigenvalue of _A_ 
 
 <p align="center"><i>A</i>(<i>α</i><b>x</b>) = <i>α</i>(<i>A</i><b>x</b>) = <i>α</i>(<i>λ</i><b>x</b>) = <i>λ</i>(<i>α</i><b>x</b>)</p>
 
+An important consequence of this is that for any vector norm || • || we could choose the
+constant _α_ = ±||**x**||-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
 
+To determine the eigenvalues of a matrix, we can use the fact that
+• λ is an eigenvalue of A if and only if det(A - λI) = 0.
+
+Once an eigenvalue λ has been found a corresponding eigenvector x = 0 is determined by solving the system
+• (A - λI)x = 0.
+
+If x is an eigenvector associated with the real eigenvalue λ, then Ax = λx, so the matrix A takes the vector x into a scalar multiple of itself.
+• If λ is real and λ > 1, then A has the effect of stretching x by a factor of λ.
+• If 0 < λ < 1, then A shrinks x by a factor of λ.
+• If λ < 0, the effects are similar, although the direction of Ax is reversed.
 
 ## Welcome to GitHub Pages
 
