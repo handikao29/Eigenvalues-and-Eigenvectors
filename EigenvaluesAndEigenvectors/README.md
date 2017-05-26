@@ -22,7 +22,7 @@ or characteristic values, of the matrix <i>A</i>. If λ is an eigenvalue of _A_ 
 
 <i>A</i>(<i>α</i><b>x</b>) = <i>α</i>(<i>A</i><b>x</b>) = <i>α</i>(<i>λ</i><b>x</b>) = <i>λ</i>(<i>α</i><b>x</b>)
 
-An important consequence of this is that for any vector norm we could choose the constant _α_ = ±||**x**||-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
+An important consequence of this is that for any vector norm we could choose the constant _α_ = ±**x**-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
 
 To determine the eigenvalues of a matrix, we can use the fact that
 
@@ -107,4 +107,21 @@ The diagonal matrix will be _D_ = ![Example](https://handikao29.github.io/image/
 
 So, the diagonal matrix _D_ = ![Example](https://handikao29.github.io/image/mat8.png)
 
-In next step, we will 
+In next step, we will find the eigenvectors of _A_
+For **x**<sub>1</sub> corresponding to the eigenvalue _λ_=3 :
+
+![Eigenvector x1](https://handikao29.github.io/image/mat9.png)
+
+Found that **x**<sub>1</sub> = -**x**<sub>2</sub>, so the eigenvector **x**<sub>1</sub> = (1, -1)<sup>t</sup>, and any eigenvector of _A_ corresponding to _λ_ = 3 is a nonzero multiple of **x**<sub>1</sub>.
+
+For **x**<sub>2</sub> corresponding to the eigenvalue _λ_=-4 :
+
+![Eigenvector x2](https://handikao29.github.io/image/mat10.png)
+
+Found that 8**x**<sub>1</sub> = -**x**<sub>2</sub>, so the eigenvector **x**<sub>2</sub> = (1, -8)<sup>t</sup>, and any eigenvector of _A_ corresponding to _λ_ = -4 is a nonzero multiple of **x**<sub>2</sub>.
+
+From step 2, there’s 2 independent eigenvector from 2 x 2 matrix (_A_), so _A_ is diagonalizable.
+Matrix _P_ and inverse of _P_ (_P_<sup>-1</sup>) created from the eigenvectors from step 2 (**x**<sup>1</sup> and **x**<sup>2</sup>).
+
+![P and inverse P](https://handikao29.github.io/image/mat11.png)
+
