@@ -20,15 +20,17 @@ If <i>p</i> is the characteristic polynomial of the matrix <i>A</i>, the zeros o
 or characteristic values, of the matrix <i>A</i>. If λ is an eigenvalue of _A_ and _x_ = 0 satisfies
 (_A_ - _λI_)**x** = 0, then **x** is an **eigenvector**, or characteristic vector, of _A_ corresponding to the eigenvalue λ. If λ is an eigenvalue of _A_, and **x** is an eigenvector belonging to _λ_, any nonzero multiple of **x** will be an eigenvector.
 
-<p align="center"><i>A</i>(<i>α</i><b>x</b>) = <i>α</i>(<i>A</i><b>x</b>) = <i>α</i>(<i>λ</i><b>x</b>) = <i>λ</i>(<i>α</i><b>x</b>)</p>
+<i>A</i>(<i>α</i><b>x</b>) = <i>α</i>(<i>A</i><b>x</b>) = <i>α</i>(<i>λ</i><b>x</b>) = <i>λ</i>(<i>α</i><b>x</b>)
 
 An important consequence of this is that for any vector norm || • || we could choose the
 constant _α_ = ±||**x**||-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
 
 To determine the eigenvalues of a matrix, we can use the fact that
+
 • _λ_ is an eigenvalue of _A_ if and only if det(_A_ - _λI_) = 0.
 
 Once an eigenvalue _λ_ has been found a corresponding eigenvector **x** = 0 is determined by solving the system
+
 • (_A_ - _λI_)**x** = 0.
 
 If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x** = _λ_**x**, so the matrix _A_ takes the vector **x** into a scalar multiple of itself.
@@ -36,7 +38,36 @@ If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x
 • If 0 < _λ_ < 1, then _A_ shrinks **x** by a factor of _λ_.
 • If _λ_ < 0, the effects are similar, although the direction of _A_**x** is reversed.
 
+<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png" alt ="vector1" /></div>
 
+For example, we will search all eigenvalues and eigenvectors of A = <div><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat1.png" alt ="mat1" /></div>.
+
+Characteristic equation to search those eigenvalues :
+
+(_A_ - _λI_) = (■(3&2@-1&0)) – λ(■(1&0@0&1))
+(_A_ - _λI_) = (■(3- λ&2@-1&-λ))
+
+det(_A_ - _λI_) = det ((■(3- λ&2@-1&-λ))) = 0
+λ^2-3λ+2=0
+(λ-1)(λ-2)=0
+
+Thus, we found this eigenvalue of A is λ=1 and λ=2.
+An eigenvector x1 corresponding to the eigenvalue λ1 = 1 is a solution to the vectormatrix equation (A - 1 • I)x1 = 0, so
+(■(0@0))= (■(3- λ&2@-1&-λ))∙(■(x_1@x_2 ))
+(■(0@0))= (■(2&2@-1&-1))∙(■(x_1@x_2 ))
+(■(0@0))= (■(〖2x〗_1 〖+ 2x〗_2@〖- x〗_1 〖- x〗_2 ))
+
+We found that x_1 〖= -x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ1 = 1. For
+example, when x_1 = 1 we have the eigenvector x1 = (1, -1)t, and any eigenvector of A corresponding to λ = 1 is a nonzero multiple of x1.
+
+An eigenvector x2 corresponding to the eigenvalue λ2 = 2 is a solution to the vectormatrix equation (A - 2 • I)x2 = 0, so
+(■(0@0))= (■(3- λ&2@-1&-λ))∙(■(x_1@x_2 ))
+(■(0@0))= (■(1&2@-1&-2))∙(■(x_1@x_2 ))
+(■(0@0))= (■(x_1 〖+ 2x〗_2@〖- x〗_1 〖- 2x〗_2 ))
+
+We found that x_1 〖= 2x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ2 = 2. For
+example, when x_1 = 1 we have the eigenvector x2 = (2, 1)t, and any eigenvector of A corresponding to λ = 2 is a nonzero multiple of x2.
+So, in this example, the eigenvectors which satisfy the equation is x1 = (■(1@-1)) with λ1 = 1 and x2 = (■(2@1)) with λ2 = 2
 
 ## Welcome to GitHub Pages
 
