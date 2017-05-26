@@ -61,9 +61,7 @@ We found that x_1 〖= -x〗_2. Any nonzero value of x_1 produces an eigenvector
 example, when x_1 = 1 we have the eigenvector x1 = (1, -1)t, and any eigenvector of A corresponding to λ = 1 is a nonzero multiple of x1.
 
 An eigenvector x2 corresponding to the eigenvalue λ2 = 2 is a solution to the vectormatrix equation (A - 2 • I)x2 = 0, so
-(■(0@0))= (■(3- λ&2@-1&-λ))∙(■(x_1@x_2 ))
-(■(0@0))= (■(1&2@-1&-2))∙(■(x_1@x_2 ))
-(■(0@0))= (■(x_1 〖+ 2x〗_2@〖- x〗_1 〖- 2x〗_2 ))
+<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat4.jpg" alt ="mat1" /></div>
 
 We found that x_1 〖= 2x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ2 = 2. For
 example, when x_1 = 1 we have the eigenvector x2 = (2, 1)t, and any eigenvector of A corresponding to λ = 2 is a nonzero multiple of x2.
@@ -98,11 +96,3 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/handikao29/handikao29.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
