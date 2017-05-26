@@ -1,10 +1,10 @@
 Eigenvalues and Eigenvectors
 Eigenvalues are a special set of scalars associated with a linear system of equations (i.e., a matrix equation) that are sometimes also known as characteristic roots, while eigenvectors are a special set of vectors associated with a linear system of equations that are sometimes also known as characteristic vectors
+
 Eigenvalues and eigenvectors have a wide range of applications, for example in stability analysis, vibration analysis, atomic orbitals, facial recognition, and matrix diagonalization. 
-Let there’s an n × m matrix can be considered as a function that uses matrix multiplication to take m-dimensional column vectors into n-dimensional column vectors. An n × m matrix is
-actually a linear function from ℝm to ℝn. A square matrix A takes the set of n-dimensional
-vectors into itself, which gives a linear function from ℝn to ℝn. In this case, certain nonzero
-vectors x might be parallel to Ax, which means that a constant λ exists with Ax = λx. For
+
+Let there’s an _n_ × _m_ matrix can be considered as a function that uses matrix multiplication to take m-dimensional column vectors into n-dimensional column vectors. An _n_ × _m_ matrix is actually a linear function from _ℝ<sup>m</sup>_ to _ℝ<sup>n</sup>_. A square matrix A takes the set of n-dimensiona
+vectors into itself, which gives a linear function from ℝn to ℝn. In this case, certain nonzero vectors **x** might be parallel to Ax, which means that a constant **λ** exists with _A_**x** = λ**x**. For
 these vectors, we have 
 
 
