@@ -33,8 +33,11 @@ Once an eigenvalue _λ_ has been found a corresponding eigenvector **x** = 0 is 
 • (_A_ - _λI_)**x** = 0.
 
 If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x** = _λ_**x**, so the matrix _A_ takes the vector **x** into a scalar multiple of itself.
+
 • If _λ_ is real and _λ_ > 1, then _A_ has the effect of stretching **x** by a factor of _λ_.
+
 • If 0 < _λ_ < 1, then _A_ shrinks **x** by a factor of _λ_.
+
 • If _λ_ < 0, the effects are similar, although the direction of _A_**x** is reversed.
 
 ![Vector](https://handikao29.github.io/image/vector1.png#center)
