@@ -47,6 +47,7 @@ Characteristic equation to search those eigenvalues :
 ![Characteristic Equation](https://handikao29.github.io/image/mat2.png)
 
 Thus, we found this eigenvalue of _A_ is _λ_=1 and _λ_=2.
+
 An eigenvector **x**<sub>1</sub> corresponding to the eigenvalue _λ_<sub>1</sub> = 1 is a solution to the vectormatrix equation (_A_ - 1 • _I_)**x**<sub>1</sub> = 0, so
 
 ![Eigenvector x1](https://handikao29.github.io/image/mat3.png)
@@ -54,7 +55,7 @@ An eigenvector **x**<sub>1</sub> corresponding to the eigenvalue _λ_<sub>1</sub
 We found that **x**<sub>1</sub> = -**x**<sub>2</sub>. Any nonzero value of **x**<sub>1</sub> produces an eigenvector for the eigenvalue _λ_<sub>1</sub> = 1.
 For example, when **x**<sub>1</sub> = 1 we have the eigenvector **x**<sub>1</sub> = (1, -1), and any eigenvector of _A_ corresponding to _λ_ = 1 is a nonzero multiple of **x**_1_.
 
-An eigenvector x2 corresponding to the eigenvalue λ2 = 2 is a solution to the vectormatrix equation (_A_ - 2 • _I_)**x**<sub>2</sub> = 0, so
+An eigenvector **x**<sub>2</sub> corresponding to the eigenvalue _λ_<sub>2</sub> = 2 is a solution to the vectormatrix equation (_A_ - 2 • _I_)**x**<sub>2</sub> = 0, so
 
 ![Eigenvector x2](https://handikao29.github.io/image/mat4.png)
 
@@ -66,3 +67,9 @@ So, in this example, the eigenvectors which satisfy the equation is **x**<sub>1<
 
 Diagonalization is one of eigenvalue and eigenvector’s application. It is the process of finding a corresponding diagonal matrix for a diagonalizable matrix or linear map. 
 Diagonal matrix are particularly convenient for eigenvalue since the eigenvalus of diagonal matrix coincide with the diagonal entries _λ_<sub>_i_</sub> and the eigenvector corresponding the eigenvalue _λ_<sub>_i_</sub> is just the _i_<sup>th</sup> vector
+
+![Diagonal Matrix](https://handikao29.github.io/image/diagonalmatrix.png)
+
+This property (that the eigenvalues of diagonal matrix coincide with its diagonal entries and the eigenvectors corresponds to the corresponding coordinate vectors) is so useful and important hat in one practice often tries to make a change of coordinates just so that this will happen. But unfortunately, this isn’t always possible, if it’s possible to make a change of coordinates so that a matrix becomes diagonal we say that a matrix is diagonalizable.
+
+Let _A_ be a real (or complex) _n_ × _n_ matrix, let _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n</sub> be a set of _n_ real (or complex) scalars, and let **x**<sub>1</sub>, **x**<sub>2</sub>,…,**x**<sub>n</sub> be a set of _n_ vectors ℝ<sup>n</sup> (or Cn). Let _P_ be the _n_ × _n_ matrix formed by using _x<sup>j</sup>_ for _j_<sup>th</sup> column vector and _D_ be the _n_ × _n_ diagonal matrix whose diagonal entries are the set of _n_ real (or complex) scalars. Then,
