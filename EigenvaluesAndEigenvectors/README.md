@@ -105,8 +105,6 @@ The diagonal matrix will be _D_ = ![Example](https://handikao29.github.io/image/
 
 ![Finding eigenvalues](https://handikao29.github.io/image/mat7.png)
 
-So, the diagonal matrix _D_ = ![Example](https://handikao29.github.io/image/mat8.png)
-
 In next step, we will find the eigenvectors of _A_
 For **x**<sub>1</sub> corresponding to the eigenvalue _λ_=3 :
 
@@ -124,4 +122,6 @@ From step 2, there’s 2 independent eigenvector from 2 x 2 matrix (_A_), so _A_
 Matrix _P_ and inverse of _P_ (_P_<sup>-1</sup>) created from the eigenvectors from step 2 (**x**<sup>1</sup> and **x**<sup>2</sup>).
 
 ![P and inverse P](https://handikao29.github.io/image/mat11.png)
+
+And  the diagonal matrix _D_ = ![Example](https://handikao29.github.io/image/mat8.png)
 
