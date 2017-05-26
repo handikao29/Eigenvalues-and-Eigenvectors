@@ -20,15 +20,17 @@ If <i>p</i> is the characteristic polynomial of the matrix <i>A</i>, the zeros o
 or characteristic values, of the matrix <i>A</i>. If λ is an eigenvalue of _A_ and _x_ = 0 satisfies
 (_A_ - _λI_)**x** = 0, then **x** is an **eigenvector**, or characteristic vector, of _A_ corresponding to the eigenvalue λ. If λ is an eigenvalue of _A_, and **x** is an eigenvector belonging to _λ_, any nonzero multiple of **x** will be an eigenvector.
 
-<p align="center"><i>A</i>(<i>α</i><b>x</b>) = <i>α</i>(<i>A</i><b>x</b>) = <i>α</i>(<i>λ</i><b>x</b>) = <i>λ</i>(<i>α</i><b>x</b>)</p>
+<i>A</i>(<i>α</i><b>x</b>) = <i>α</i>(<i>A</i><b>x</b>) = <i>α</i>(<i>λ</i><b>x</b>) = <i>λ</i>(<i>α</i><b>x</b>)
 
 An important consequence of this is that for any vector norm || • || we could choose the
 constant _α_ = ±||**x**||-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
 
 To determine the eigenvalues of a matrix, we can use the fact that
+
 • _λ_ is an eigenvalue of _A_ if and only if det(_A_ - _λI_) = 0.
 
 Once an eigenvalue _λ_ has been found a corresponding eigenvector **x** = 0 is determined by solving the system
+
 • (_A_ - _λI_)**x** = 0.
 
 If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x** = _λ_**x**, so the matrix _A_ takes the vector **x** into a scalar multiple of itself.
