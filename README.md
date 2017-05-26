@@ -26,15 +26,18 @@ An important consequence of this is that for any vector norm || • || we could 
 constant _α_ = ±||**x**||-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
 
 To determine the eigenvalues of a matrix, we can use the fact that
-• λ is an eigenvalue of A if and only if det(A - λI) = 0.
+• _λ_ is an eigenvalue of _A_ if and only if det(_A_ - _λI_) = 0.
 
-Once an eigenvalue λ has been found a corresponding eigenvector x = 0 is determined by solving the system
-• (A - λI)x = 0.
+Once an eigenvalue _λ_ has been found a corresponding eigenvector **x** = 0 is determined by solving the system
+• (_A_ - _λI_)**x** = 0.
 
-If x is an eigenvector associated with the real eigenvalue λ, then Ax = λx, so the matrix A takes the vector x into a scalar multiple of itself.
-• If λ is real and λ > 1, then A has the effect of stretching x by a factor of λ.
-• If 0 < λ < 1, then A shrinks x by a factor of λ.
-• If λ < 0, the effects are similar, although the direction of Ax is reversed.
+If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x** = _λ_**x**, so the matrix _A_ takes the vector **x** into a scalar multiple of itself.
+• If _λ_ is real and _λ_ > 1, then _A_ has the effect of stretching **x** by a factor of _λ_.
+• If 0 < _λ_ < 1, then _A_ shrinks **x** by a factor of _λ_.
+• If _λ_ < 0, the effects are similar, although the direction of _A_**x** is reversed.
+
+![alt text](https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png "Logo Title Text 1")
+
 
 ## Welcome to GitHub Pages
 
