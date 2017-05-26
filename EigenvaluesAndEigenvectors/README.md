@@ -38,7 +38,7 @@ If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x
 • If 0 < _λ_ < 1, then _A_ shrinks **x** by a factor of _λ_.
 • If _λ_ < 0, the effects are similar, although the direction of _A_**x** is reversed.
 
-<center>![Vector](https://handikao29.github.io/image/vector1.png)</center>
+-> ![Vector](https://handikao29.github.io/image/vector1.png) <-
 
 For example, we will search all eigenvalues and eigenvectors of A = ![Matrix A](https://handikao29.github.io/image/mat1.png)
 
@@ -74,7 +74,7 @@ This property (that the eigenvalues of diagonal matrix coincide with its diagona
 
 Let _A_ be a real (or complex) _n_ × _n_ matrix, let _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n</sub> be a set of _n_ real (or complex) scalars, and let **x**<sub>1</sub>, **x**<sub>2</sub>,…,**x**<sub>n</sub> be a set of _n_ vectors ℝ<sup>n</sup> (or Cn). Let _P_ be the _n_ × _n_ matrix formed by using _x<sup>j</sup>_ for _j_<sup>th</sup> column vector and _D_ be the _n_ × _n_ diagonal matrix whose diagonal entries are the set of _n_ real (or complex) scalars. Then,
 
-<center>**AP = PD**</center>
+-> **AP = PD** <-
 
 If and only if _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n</sub> are the eigenvalues of _A_ and each **x**<sub>j</sub> is and eigenvector of A corresponding the eigenvalue _λ_<sub>j</sub>.
 
