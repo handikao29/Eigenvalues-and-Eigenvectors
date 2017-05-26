@@ -38,18 +38,18 @@ If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x
 • If 0 < _λ_ < 1, then _A_ shrinks **x** by a factor of _λ_.
 • If _λ_ < 0, the effects are similar, although the direction of _A_**x** is reversed.
 
-![Vector](https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png)
-<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png" alt ="vector1" /></div>
+![Vector](https://handikao29.github.io/image/vector1.png)
 
-For example, we will search all eigenvalues and eigenvectors of A = <div><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat1.png" alt ="mat1" /></div>.
+For example, we will search all eigenvalues and eigenvectors of A = ![Matrix A](https://handikao29.github.io/image/mat1.png)
 
 Characteristic equation to search those eigenvalues :
 
-<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat2.jpg" alt ="mat2" /></div>
+![Characteristic Equation](https://handikao29.github.io/image/mat2.png)
 
 Thus, we found this eigenvalue of _A_ is _λ_=1 and _λ_=2.
 An eigenvector **x**<sub>1</sub> corresponding to the eigenvalue _λ_<sub>1</sub> = 1 is a solution to the vectormatrix equation (_A_ - 1 • I)x1 = 0, so
-<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat3.jpg" alt ="mat3" /></div>
+
+![Matrix Equation](https://handikao29.github.io/image/mat2.png)
 
 We found that x_1 〖= -x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ1 = 1. For
 example, when x_1 = 1 we have the eigenvector x1 = (1, -1)t, and any eigenvector of A corresponding to λ = 1 is a nonzero multiple of x1.
