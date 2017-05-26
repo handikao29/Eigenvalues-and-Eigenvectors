@@ -4,14 +4,22 @@ Eigenvalues are a special set of scalars associated with a linear system of equa
 
 Eigenvalues and eigenvectors have a wide range of applications, for example in stability analysis, vibration analysis, atomic orbitals, facial recognition, and matrix diagonalization. 
 
-Let there’s an _n_ × _m_ matrix can be considered as a function that uses matrix multiplication to take m-dimensional column vectors into _n_-dimensional column vectors. An _n_ × _m_ matrix is actually a linear function from _ℝ<sup>m</sup>_ to _ℝ<sup>n</sup>_. A square matrix A takes the set of n-dimensional vectors into itself, which gives a linear function from ℝn to ℝn. In this case, certain nonzero vectors **x** might be parallel to Ax, which means that a constant **λ** exists with _A_**x** = λ**x**. For these vectors, we have 
+Let there’s an _n_ × _m_ matrix can be considered as a function that uses matrix multiplication to take m-dimensional column vectors into _n_-dimensional column vectors. An _n_ × _m_ matrix is actually a linear function from _ℝ<sup>m</sup>_ to _ℝ<sup>n</sup>_. A square matrix A takes the set of n-dimensional vectors into itself, which gives a linear function from ℝn to ℝn. In this case, certain nonzero vectors **x** might be parallel to Ax, which means that a constant **λ** exists with _A_**x** = λ**x**. For these vectors, we have :
 <p align="center"><i>A</i><b>x</b> = <i>λ</i><b>x</b></p>
-
 <p align="center"><i>A</i><b>x</b> - <i>λ</i><b>x</b> = 0</p>
-
 <p align="center"><i>A</i><b>x</b> - <i>λI</i><b>x</b> = 0</p>
-
 <p align="center">(<i>A</i> – <i>λI</i>)<b>x</b> = 0</p>
+
+There is a close connection between these numbers λ and the likelihood that an iterative method will converge.
+
+If _A_ is a square matrix, the **characteristic polynomial** of _A_ is defined by
+<p align="center">p(<i>λ</i>) = det(<i>A</i> - <i>λI</i>)</p>
+
+If <i>p</i> is the characteristic polynomial of the matrix <i>A</i>, the zeros of <i>p</i> are **eigenvalues**,
+or characteristic values, of the matrix <i>A</i>. If λ is an eigenvalue of _A_ and _x_ = 0 satisfies
+(_A_ - _λI_)**x** = 0, then **x** is an **eigenvector**, or characteristic vector, of _A_ corresponding to the eigenvalue λ. If λ is an eigenvalue of _A_, and **x** is an eigenvector belonging to _λ_, any nonzero multiple of **x** will be an eigenvector.
+
+
 
 ## Welcome to GitHub Pages
 
