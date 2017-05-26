@@ -55,38 +55,14 @@ We found that **x**<sub>1</sub> = -**x**<sub>2</sub>. Any nonzero value of **x**
 For example, when **x**<sub>1</sub> = 1 we have the eigenvector **x**<sub>1</sub> = (1, -1), and any eigenvector of _A_ corresponding to _λ_ = 1 is a nonzero multiple of **x**_1_.
 
 An eigenvector x2 corresponding to the eigenvalue λ2 = 2 is a solution to the vectormatrix equation (_A_ - 2 • _I_)**x**<sub>2</sub> = 0, so
+
 ![Eigenvector x2](https://handikao29.github.io/image/mat4.png)
 
-We found that **x**<sub>1</sub> = 2**x**<sub>2</sub>. Any nonzero value of **x**<sub>1</sub> produces an eigenvector for the eigenvalue _λ_2 = 2.
+We found that **x**<sub>1</sub> = 2**x**<sub>2</sub>. Any nonzero value of **x**<sub>1</sub> produces an eigenvector for the eigenvalue _λ_<sub>2</sub> = 2.
 For example, when **x**<sub>1</sub> = 1 we have the eigenvector **x**<sub>2</sub> = (2, 1), and any eigenvector of _A_ corresponding to _λ_ = 2 is a nonzero multiple of **x**<sub>2</sub>.
 So, in this example, the eigenvectors which satisfy the equation is **x**<sub>1</sub> = (1,-1) with _λ_<sub>1</sub> = 1 and **x**<sub>2</sub> = (2,1) with _λ_<sub>2</sub> = 2
 
-## Welcome to GitHub Pages
+## Diagonalization
 
-You can use the [editor on GitHub](https://github.com/handikao29/handikao29.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Diagonalization is one of eigenvalue and eigenvector’s application. It is the process of finding a corresponding diagonal matrix for a diagonalizable matrix or linear map. 
+Diagonal matrix are particularly convenient for eigenvalue since the eigenvalus of diagonal matrix coincide with the diagonal entries _λ_<sub>_i_</sub> and the eigenvector corresponding the eigenvalue _λ_<sub>_i_</sub> is just the _i_<sup>th</sup> vector
