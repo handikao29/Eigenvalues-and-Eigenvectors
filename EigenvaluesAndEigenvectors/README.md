@@ -87,7 +87,8 @@ And so **AP = PD** implies :
 And vice-versa.
 
 Suppose **AP = PD**, and the matrix _P_ is invertible, thus
-<p align="center"><b>**D = P<sup>-1</sup>AP**</b></p>
+
+<p align="center"><b>D = P<sup>-1</sup>AP</b></p>
 
 A square matrix _A_ is said as diagonalizable if there exists an invertible matrix _P_ such that _P_<sup>−1</sup>_AP_ = _D_ or _PDP_<sup>-1</sup> = _A_ where _D_ is a diagonal matrix and _P_ diagonalize _A_.
 If _V_ is a finite-dimensional vector space, then a linear map _T_ : _V_ → _V_ is called diagonalizable if there exists an ordered basis of _V_ with respect to which _T_ is represented by a diagonal matrix. 
@@ -131,3 +132,9 @@ To prove the _D_, we’ll use the formula :
 ![Example](https://handikao29.github.io/image/mat12.png)
 
 References :
+Burden, Richard L. and Fries, J. Douglas, _Numerical Analysis_, 9th edition, 2010.
+Computation of Eigenvalues, http://www.sosmath.com/matrix/eigen1/eigen1.html
+Diagonalization of Matrices, https://math.okstate.edu/people/binegar/3013-S99/3013-l16.pdf
+Eigenvalues and Eigenvectors, https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
+Eigenvalues and Eigenvectors, http://math.mit.edu/~gs/linearalgebra/ila0601.pdf
+Eigenvalues and Eigenvectors, https://math.okstate.edu/people/binegar/3013/3013-l13.pdf
