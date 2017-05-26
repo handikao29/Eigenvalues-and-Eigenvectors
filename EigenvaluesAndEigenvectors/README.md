@@ -74,3 +74,9 @@ This property (that the eigenvalues of diagonal matrix coincide with its diagona
 
 Let _A_ be a real (or complex) _n_ × _n_ matrix, let _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n</sub> be a set of _n_ real (or complex) scalars, and let **x**<sub>1</sub>, **x**<sub>2</sub>,…,**x**<sub>n</sub> be a set of _n_ vectors ℝ<sup>n</sup> (or Cn). Let _P_ be the _n_ × _n_ matrix formed by using _x<sup>j</sup>_ for _j_<sup>th</sup> column vector and _D_ be the _n_ × _n_ diagonal matrix whose diagonal entries are the set of _n_ real (or complex) scalars. Then,
 
+<center>**AP = PD**</center>
+
+If and only if _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n</sub> are the eigenvalues of _A_ and each **x**<sub>j</sub> is and eigenvector of A corresponding the eigenvalue _λ_<sub>j</sub>.
+
+![Proof](https://handikao29.github.io/image/proof1.png)
+
