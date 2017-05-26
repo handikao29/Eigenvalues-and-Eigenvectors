@@ -22,8 +22,7 @@ or characteristic values, of the matrix <i>A</i>. If λ is an eigenvalue of _A_ 
 
 <i>A</i>(<i>α</i><b>x</b>) = <i>α</i>(<i>A</i><b>x</b>) = <i>α</i>(<i>λ</i><b>x</b>) = <i>λ</i>(<i>α</i><b>x</b>)
 
-An important consequence of this is that for any vector norm || • || we could choose the
-constant _α_ = ±||**x**||-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
+An important consequence of this is that for any vector norm we could choose the constant _α_ = ±||**x**||-1, which would result in _α_**x** being an eigenvector with norm 1. So, for every eigenvalue and any vector norm there are eigenvectors with norm 1
 
 To determine the eigenvalues of a matrix, we can use the fact that
 
@@ -74,8 +73,7 @@ This property (that the eigenvalues of diagonal matrix coincide with its diagona
 
 Let _A_ be a real (or complex) _n_ × _n_ matrix, let _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n</sub> be a set of _n_ real (or complex) scalars, and let **x**<sub>1</sub>, **x**<sub>2</sub>,…,**x**<sub>n</sub> be a set of _n_ vectors ℝ<sup>n</sup> (or Cn). Let _P_ be the _n_ × _n_ matrix formed by using _x<sup>j</sup>_ for _j_<sup>th</sup> column vector and _D_ be the _n_ × _n_ diagonal matrix whose diagonal entries are the set of _n_ real (or complex) scalars. Then,
 
-{:.center}
-**AP = PD**
+<p align="center"><b>AP = PD</b></p>
 
 If and only if _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n</sub> are the eigenvalues of _A_ and each **x**<sub>j</sub> is and eigenvector of A corresponding the eigenvalue _λ_<sub>j</sub>.
 
@@ -87,7 +85,8 @@ And so **AP = PD** implies :
 
 And vice-versa.
 
-Suppose **AP = PD**, and the matrix _P_ is invertible, thus **D = P<sup>-1</sup>AP**
+Suppose **AP = PD**, and the matrix _P_ is invertible, thus
+<p align="center"><b>**D = P<sup>-1</sup>AP**</b></p>
 
 A square matrix _A_ is said as diagonalizable if there exists an invertible matrix _P_ such that _P_<sup>−1</sup>_AP_ = _D_ or _PDP_<sup>-1</sup> = _A_ where _D_ is a diagonal matrix and _P_ diagonalize _A_.
 If _V_ is a finite-dimensional vector space, then a linear map _T_ : _V_ → _V_ is called diagonalizable if there exists an ordered basis of _V_ with respect to which _T_ is represented by a diagonal matrix. 
