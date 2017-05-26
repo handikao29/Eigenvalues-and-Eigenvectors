@@ -38,7 +38,9 @@ If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x
 • If 0 < _λ_ < 1, then _A_ shrinks **x** by a factor of _λ_.
 • If _λ_ < 0, the effects are similar, although the direction of _A_**x** is reversed.
 
-![alt text](https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png "Logo Title Text 1")
+![alt text][logo]
+
+[logo] = https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png "vector1"
 
 
 ## Welcome to GitHub Pages
