@@ -38,8 +38,36 @@ If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x
 • If 0 < _λ_ < 1, then _A_ shrinks **x** by a factor of _λ_.
 • If _λ_ < 0, the effects are similar, although the direction of _A_**x** is reversed.
 
-<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png" /></div>
+<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png" alt ="vector1" /></div>
 
+For example, we will search all eigenvalues and eigenvectors of A = <div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat1.png" alt ="mat1" /></div>.
+
+Characteristic equation to search those eigenvalues :
+
+(_A_ - _λI_) = (■(3&2@-1&0)) – λ(■(1&0@0&1))
+(_A_ - _λI_) = (■(3- λ&2@-1&-λ))
+
+det(_A_ - _λI_) = det ((■(3- λ&2@-1&-λ))) = 0
+λ^2-3λ+2=0
+(λ-1)(λ-2)=0
+
+Thus, we found this eigenvalue of A is λ=1 and λ=2.
+An eigenvector x1 corresponding to the eigenvalue λ1 = 1 is a solution to the vectormatrix equation (A - 1 • I)x1 = 0, so
+(■(0@0))= (■(3- λ&2@-1&-λ))∙(■(x_1@x_2 ))
+(■(0@0))= (■(2&2@-1&-1))∙(■(x_1@x_2 ))
+(■(0@0))= (■(〖2x〗_1 〖+ 2x〗_2@〖- x〗_1 〖- x〗_2 ))
+
+We found that x_1 〖= -x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ1 = 1. For
+example, when x_1 = 1 we have the eigenvector x1 = (1, -1)t, and any eigenvector of A corresponding to λ = 1 is a nonzero multiple of x1.
+
+An eigenvector x2 corresponding to the eigenvalue λ2 = 2 is a solution to the vectormatrix equation (A - 2 • I)x2 = 0, so
+(■(0@0))= (■(3- λ&2@-1&-λ))∙(■(x_1@x_2 ))
+(■(0@0))= (■(1&2@-1&-2))∙(■(x_1@x_2 ))
+(■(0@0))= (■(x_1 〖+ 2x〗_2@〖- x〗_1 〖- 2x〗_2 ))
+
+We found that x_1 〖= 2x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ2 = 2. For
+example, when x_1 = 1 we have the eigenvector x2 = (2, 1)t, and any eigenvector of A corresponding to λ = 2 is a nonzero multiple of x2.
+So, in this example, the eigenvectors which satisfy the equation is x1 = (■(1@-1)) with λ1 = 1 and x2 = (■(2@1)) with λ2 = 2
 
 ## Welcome to GitHub Pages
 
