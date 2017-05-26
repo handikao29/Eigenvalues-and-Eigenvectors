@@ -47,19 +47,19 @@ Characteristic equation to search those eigenvalues :
 ![Characteristic Equation](https://handikao29.github.io/image/mat2.png)
 
 Thus, we found this eigenvalue of _A_ is _λ_=1 and _λ_=2.
-An eigenvector **x**<sub>1</sub> corresponding to the eigenvalue _λ_<sub>1</sub> = 1 is a solution to the vectormatrix equation (_A_ - 1 • I)x1 = 0, so
+An eigenvector **x**<sub>1</sub> corresponding to the eigenvalue _λ_<sub>1</sub> = 1 is a solution to the vectormatrix equation (_A_ - 1 • _I_)**x**<sub>1</sub> = 0, so
 
-![Matrix Equation](https://handikao29.github.io/image/mat2.png)
+![Eigenvector x1](https://handikao29.github.io/image/mat3.png)
 
-We found that x_1 〖= -x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ1 = 1. For
-example, when x_1 = 1 we have the eigenvector x1 = (1, -1)t, and any eigenvector of A corresponding to λ = 1 is a nonzero multiple of x1.
+We found that **x**<sub>1</sub> = -**x**<sub>2</sub>. Any nonzero value of **x**<sub>1</sub> produces an eigenvector for the eigenvalue _λ_<sub>1</sub> = 1.
+For example, when **x**<sub>1</sub> = 1 we have the eigenvector **x**<sub>1</sub> = (1, -1), and any eigenvector of _A_ corresponding to _λ_ = 1 is a nonzero multiple of **x**_1_.
 
-An eigenvector x2 corresponding to the eigenvalue λ2 = 2 is a solution to the vectormatrix equation (A - 2 • I)x2 = 0, so
-<div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat4.jpg" alt ="mat4" /></div>
+An eigenvector x2 corresponding to the eigenvalue λ2 = 2 is a solution to the vectormatrix equation (_A_ - 2 • _I_)**x**<sub>2</sub> = 0, so
+![Eigenvector x2](https://handikao29.github.io/image/mat4.png)
 
-We found that **x_1 〖= 2x〗_2. Any nonzero value of x_1 produces an eigenvector for the eigenvalue λ2 = 2. For
-example, when x_1 = 1 we have the eigenvector x2 = (2, 1)t, and any eigenvector of A corresponding to λ = 2 is a nonzero multiple of x2.
-So, in this example, the eigenvectors which satisfy the equation is x1 = (1,-1) with λ1 = 1 and x2 = (2,1) with λ2 = 2
+We found that **x**<sub>1</sub> = 2**x**<sub>2</sub>. Any nonzero value of **x**<sub>1</sub> produces an eigenvector for the eigenvalue _λ_2 = 2.
+For example, when **x**<sub>1</sub> = 1 we have the eigenvector **x**<sub>2</sub> = (2, 1), and any eigenvector of _A_ corresponding to _λ_ = 2 is a nonzero multiple of **x**<sub>2</sub>.
+So, in this example, the eigenvectors which satisfy the equation is **x**<sub>1</sub> = (1,-1) with _λ_<sub>1</sub> = 1 and **x**<sub>2</sub> = (2,1) with _λ_<sub>2</sub> = 2
 
 ## Welcome to GitHub Pages
 
