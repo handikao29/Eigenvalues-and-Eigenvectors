@@ -130,12 +130,11 @@ And the diagonal matrix _D_ = ![Example](https://handikao29.github.io/image/mat8
 To prove the _D_, we’ll use the formula :
 
 ![Example](https://handikao29.github.io/image/mat12.png)
-<p>
+
 References :
-Burden, Richard L. and Fries, J. Douglas, _Numerical Analysis_, 9th edition, 2010.
-Computation of Eigenvalues, http://www.sosmath.com/matrix/eigen1/eigen1.html
-Diagonalization of Matrices, https://math.okstate.edu/people/binegar/3013-S99/3013-l16.pdf
-Eigenvalues and Eigenvectors, https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
-Eigenvalues and Eigenvectors, http://math.mit.edu/~gs/linearalgebra/ila0601.pdf
-Eigenvalues and Eigenvectors, https://math.okstate.edu/people/binegar/3013/3013-l13.pdf
-</p>
+<br>Burden, Richard L. and Fries, J. Douglas, _Numerical Analysis_, 9th edition, 2010.
+<br>Computation of Eigenvalues, http://www.sosmath.com/matrix/eigen1/eigen1.html
+<br>Diagonalization of Matrices, https://math.okstate.edu/people/binegar/3013-S99/3013-l16.pdf
+<br>Eigenvalues and Eigenvectors, https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
+<br>Eigenvalues and Eigenvectors, http://math.mit.edu/~gs/linearalgebra/ila0601.pdf
+<br>Eigenvalues and Eigenvectors, https://math.okstate.edu/people/binegar/3013/3013-l13.pdf
