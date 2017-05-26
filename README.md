@@ -40,7 +40,7 @@ If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x
 
 <div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png" alt ="vector1" /></div>
 
-For example, we will search all eigenvalues and eigenvectors of A = <div style="text-align:center"><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat1.png" alt ="mat1" /></div>.
+For example, we will search all eigenvalues and eigenvectors of A = <div><img src ="https://github.com/handikao29/handikao29.github.io/blob/master/image/mat1.png" alt ="mat1" /></div>.
 
 Characteristic equation to search those eigenvalues :
 
