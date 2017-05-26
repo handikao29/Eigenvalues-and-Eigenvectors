@@ -5,14 +5,13 @@ Eigenvalues are a special set of scalars associated with a linear system of equa
 Eigenvalues and eigenvectors have a wide range of applications, for example in stability analysis, vibration analysis, atomic orbitals, facial recognition, and matrix diagonalization. 
 
 Let there’s an _n_ × _m_ matrix can be considered as a function that uses matrix multiplication to take m-dimensional column vectors into _n_-dimensional column vectors. An _n_ × _m_ matrix is actually a linear function from _ℝ<sup>m</sup>_ to _ℝ<sup>n</sup>_. A square matrix A takes the set of n-dimensional vectors into itself, which gives a linear function from ℝn to ℝn. In this case, certain nonzero vectors **x** might be parallel to Ax, which means that a constant **λ** exists with _A_**x** = λ**x**. For these vectors, we have 
-<p align="center"><i>A</i>**x** = _λ_**x**</p>
+<p align="center"><i>A</i><b>x</b> = <i>λ</i><b>x</b></p>
 
-<center>_A_**x** - _λ_**x** = 0</center>
+<p align="center"><i>A</i><b>x</b> - <i>λ</i><b>x</b> = 0</p>
 
-<center>Ax - λI**x** = 0</center>
+<p align="center"><i>A</i><b>x</b> - <i>λI</i><b>x</b> = 0</p>
 
-<center>(A – λI)x = 0</center>
-
+<p align="center">(<i>A</i> – <i>λI</i>)<b>x</b> = 0</p>
 
 ## Welcome to GitHub Pages
 
