@@ -83,3 +83,29 @@ If and only if _λ_<sub>1</sub>,_λ_<sub>2</sub>,_λ_<sub>3</sub>,…,_λ_<sub>n
 
 And so **AP = PD** implies :
 
+![Proof2](https://handikao29.github.io/image/proof2.png)
+
+And vice-versa.
+
+Suppose **AP = PD**, and the matrix _P_ is invertible, thus **D = P<sup>-1</sup>AP**
+
+A square matrix _A_ is said as diagonalizable if there exists an invertible matrix _P_ such that _P_<sup>−1</sup>_AP_ = _D_ or _PDP_<sup>-1</sup> = _A_ where _D_ is a diagonal matrix and _P_ diagonalize _A_.
+If _V_ is a finite-dimensional vector space, then a linear map _T_ : _V_ → _V_ is called diagonalizable if there exists an ordered basis of _V_ with respect to which _T_ is represented by a diagonal matrix. 
+The step to find invertible matrix _P_ and diagonal matrix _D_ :
+```
+1.	Find the eigenvalues of A.
+2.	Find n linearly independent eigenvectors of A.
+3.	Create P from eigenvectors in step 2.
+4.	Create D with matching the eigenvalues.
+```
+
+For example, we want to find the matrix that diagonalize A = 
+![Example](https://handikao29.github.io/image/mat5.png)
+
+The diagonal matrix will be _D_ = ![Example](https://handikao29.github.io/image/mat6.png),but first, we need to find eigenvalues of _A_.
+
+![Finding eigenvalues](https://handikao29.github.io/image/mat7.png)
+
+So, the diagonal matrix _D_ = ![Example](https://handikao29.github.io/image/mat8.png)
+
+In next step, we will 
