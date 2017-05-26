@@ -40,7 +40,7 @@ If **x** is an eigenvector associated with the real eigenvalue _λ_, then _A_**x
 
 ![alt text][logo]
 
-[logo] = https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png "vector1"
+[logo]: https://github.com/handikao29/handikao29.github.io/blob/master/image/vector1.png "vector1"
 
 
 ## Welcome to GitHub Pages
